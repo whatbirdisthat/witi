@@ -90,3 +90,10 @@ ENV/
 
 # feature-a
 jenkins_home
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
