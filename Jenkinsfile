@@ -5,9 +5,9 @@ node {
     checkout scm
   }
   stage ('STAGE 1') {
-    sh 'mvnw test'
+    sh 'mvn test'
     }
   stage ('STAGE 2') {
-    sh 'mvnw spring-boot:run -Dcucumber.options="--tags ~@wip"'
+    sh 'mvn spring-boot:run -Dcucumber.options="--tags ~@wip"'
   }
 }
